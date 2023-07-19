@@ -1,0 +1,126 @@
+.lp {
+  background-color: #f3faff; /*Background color of div*/
+  min-height: 100vh; /*Minimum height covered by the window*/
+  padding-left: 250px; /*Adds padding to the left hand side of the margin*/
+  padding-right: 250px; /*Adds padding to the left hand side of the margin*/
+}
+.Navbar-custom {
+  background-color: #53c4ee;
+}
+.lp-header {
+  display: flex; 
+  padding-top: 100px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(20px + 2vmin);
+  color:black;
+}
+
+.App-row-left {
+  flex-direction: row;
+  display: flex; 
+  text-align: left;
+  padding-right: 600px;
+  padding-bottom: 50px;
+  font-size: calc(7px + 2vmin);
+  
+}
+.App-col-left {
+  flex-direction: column;
+  display: flex; 
+  padding-left: 10px; /*Adds padding to the left hand side of the margin*/
+  padding-bottom: 20px;
+ 
+}
+.image-col-left {
+  flex-direction: column;
+  display: flex;  
+  padding-bottom: 20px;
+ 
+}
+.App-row-right {
+  flex-direction: row;
+  display: flex; 
+  text-align: right;
+  padding-bottom: 50px;
+  padding-left: 520px;
+  font-size: calc(7px + 2vmin);
+  
+}
+.image-row-right {
+  flex-direction: row;
+  display: flex; 
+  padding-bottom: 100px;
+  font-size: calc(7px + 2vmin);
+  
+}
+.App-col-right {
+  flex-direction: column;
+  display: flex; 
+  padding-bottom: 50px;
+  
+}
+.App-center {
+  text-align: center;
+  padding-bottom: 50px;
+  
+}
+
+.Button {
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin: 10px 0px;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.Button-align-row{
+  flex-direction: row;
+  display: flex; 
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.Button-align-col-left{
+  flex-direction: column;
+  display: flex; 
+  padding-left: 100px;
+  padding-bottom: 50px;
+
+}
+.App-link {
+  color: #61dafb;
+}
+.Bottom-tab-background{
+  background-color: black;
+  min-height: 40vh; /*Minimum height covered by the window*/
+  display:flex;
+  flex-direction:row;
+
+}
+.Bottom-tab-row{
+  color:white;
+  flex-direction: row;
+  display: flex; 
+  padding-left: 50px; /*Adds padding to the left hand side of the margin*/
+  font-size: 20px;
+}
+.Bottom-tab-col{
+  color:white;
+  flex-direction: column;
+  display: flex; 
+  padding-left: 50px; /*Adds padding to the left hand side of the margin*/
+  padding-top: 50px; /*Adds padding to the left hand side of the margin*/
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
